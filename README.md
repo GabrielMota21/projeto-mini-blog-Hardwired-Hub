@@ -1,0 +1,1 @@
+Projeto que aceitei o desafio de fazer mini blog. no blog contém fórmulario para adicionar uma publicação e contém banco de dados para armarzenar todas informações e salvar senhas de os usuarios cadastrado.
