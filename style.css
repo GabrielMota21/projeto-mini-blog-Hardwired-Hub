@@ -1,0 +1,104 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: 0;
+}
+body{
+    background-color: #1f2937;
+}
+
+.container{
+    padding: 3%;
+    margin: 0 auto;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+nav .logo{
+    font-size: 35px;
+    font-style: italic;
+    color: white;
+    font-weight: bold;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    border-radius: 30px;
+    transition: 0.6s;
+}
+nav ul li a:hover{
+    background-color: rgb(red, green, blue);
+}
+.logotipo{
+    width: 100%;
+}
+.logo-blog img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+}
+
+.secao-comentario{
+    border: 0 auto;
+}
+.comentario{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 18px;
+}
+.logo-comentarios{
+    width: 80%; 
+}
+
+.post-usuarios{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.publicacao{
+    border: 1px solid rgb(218, 216, 216);
+    padding: 16px;
+    border-radius: 18px;
+}
+.publicacao p{
+    margin-top: 10px;
+ }
+ .publicacao h1 a{
+    text-decoration: none;
+ }
+
+
+
+
+
+
+
+
+
+
+footer{
+    width: 100%;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+}
