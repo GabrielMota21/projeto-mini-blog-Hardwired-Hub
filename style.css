@@ -64,6 +64,7 @@ nav ul li a:hover{
     justify-content: center;
     background-color: #fff;
     border-radius: 18px;
+    padding: 10px;
 }
 .logo-comentarios{
     width: 80%; 
@@ -86,19 +87,69 @@ nav ul li a:hover{
  .publicacao h1 a{
     text-decoration: none;
  }
+ .form-container {
+    background-color: #1f2937;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 38px;
+    margin-top: 25px;
+  }
 
+  .form-container h2 {
+    margin-bottom: 20px;
+    color: #ffffff;
+  }
 
+  .form-group {
+    margin-bottom: 15px;
+  }
 
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: white;
+  }
 
+  .form-group input, 
+  .form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
 
+  .form-group textarea {
+    resize: none;
+    height: 100px;
+  }
 
+  .form-group button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
 
+  .form-group button:hover {
+    background-color: #0056b3;
+  }
 
-
-
+  .form-group .error {
+    color: #ff0000;
+    font-size: 12px;
+  }
 footer{
     width: 100%;
     font-size: 20px;
+    margin-top: 30px;
     color: #fff;
+}
+
+.copywrite{
     text-align: center;
 }
