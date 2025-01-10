@@ -5,6 +5,7 @@
 }
 body{
     background-color: #1f2937;
+    
 }
 
 .container{
@@ -64,7 +65,7 @@ nav ul li a:hover{
     justify-content: center;
     background-color: #fff;
     border-radius: 18px;
-    padding: 10px;
+    padding: 30px;
 }
 .logo-comentarios{
     width: 80%; 
@@ -144,12 +145,13 @@ nav ul li a:hover{
     font-size: 12px;
   }
 footer{
-    width: 100%;
     font-size: 20px;
-    margin-top: 30px;
+    height: 60px;
     color: #fff;
 }
 
-.copywrite{
-    text-align: center;
+footer p{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
 }
